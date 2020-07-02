@@ -1,12 +1,10 @@
 #include <iostream>
 
-
 using namespace std;
 
 int main(){
 
     int posicion, i=1;
-
 
     cout<<"Ingrese un indice para la serie: ";
     cin>>posicion;
@@ -19,9 +17,7 @@ int main(){
         {
             cout<<"1";
         }
-        
         i++;
     }
-
     return 0;
 }
