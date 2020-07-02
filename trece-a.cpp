@@ -11,11 +11,11 @@ int main(){
 
     while(i<=posicion){
         if(i%2==0){
-            cout<<"0";
+            cout<<"0 ";
         }
         else
         {
-            cout<<"1";
+            cout<<"1 ";
         }
         i++;
     }
