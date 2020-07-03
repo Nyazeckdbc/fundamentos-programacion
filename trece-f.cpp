@@ -11,6 +11,7 @@ int main(){
     cout<<"Ingrese un indice para la serie: ";
     cin>>indice;
     
+    
     while(i<=indice){
             if(i==j){
                 posicionUno+=2;
