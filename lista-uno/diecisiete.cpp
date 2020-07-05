@@ -1,11 +1,12 @@
 #include <iostream>
 #include <stdlib.h>
+#include <time.h>
 
 using namespace std;
 
 int main(){
 
-    int numeros, auxiliar;
+    int numeros, auxiliar, aleatorio, k=0;
     int matrizNumeros[100];
 
     cout<<"Cuantos numeros desea capturar?: ";
@@ -15,7 +16,6 @@ int main(){
         cout<<i+1<<".- Introduzca un numero: ";
         cin>>matrizNumeros[i];
     }
-
 
     for(int i=0; i<numeros; i++){
         for(int j=0; j<numeros; j++){
@@ -38,7 +38,6 @@ int main(){
     for(int i=numeros-1; i>=0; i--){
         cout<<matrizNumeros[i]<<" ";
     }
-
 
     cout<<endl;
     system("pause");
