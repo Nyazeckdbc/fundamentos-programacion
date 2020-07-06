@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-	int escalones, vueltas=0, opcion, pasos, posicion=0;
+	int escalones, vueltas=0, opcion, subir, bajar, posicion=0;
 
 	cout<<"Cuantos peldaños tiene la escalera toroidal: ";
 	cin>>escalones;
@@ -21,8 +21,8 @@ int main(){
 			case 1:
 				cout<<"Cuantos escalones desea subir: ";
 				cin>>pasos;
-				if((pasos+posicion)>(escalones+1)){
-					vueltas=(pasos+posicion)/(escalones+1);
+				if((pasos+posicion)>=(escalones+1)){
+					vueltas+=(pasos+posicion)/(escalones+1);
 					posicion=(pasos+posicion)%(escalones+1);
 				}
 				else{
@@ -30,13 +30,13 @@ int main(){
 				}
 				cout<<"Vueltas: "<<vueltas;
 				cout<<endl<<"Posicion actual: "<<posicion;
-				vueltas=0;
 	
 			break;
 
 			case 2:
-				cout<<"Cuantos escalones desea subir: ";
-				cin>>pasos;
+				cout<<"Cuantos escalones desea bajar: ";
+				
+
 			break;
 
 			case 3:
@@ -49,6 +49,7 @@ int main(){
 
 		cout<<endl<<endl<<"1.- Subir.";
 		cout<<endl<<"2.- Bajar.";
+		cout<<endl<<"3.- Salir.";
 		cout<<endl<<"Selecione una opcion: ";
 		cin>>opcion;
 	}
