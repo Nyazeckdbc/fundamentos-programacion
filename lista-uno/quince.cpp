@@ -20,13 +20,13 @@ int main(){
 		switch(opcion){
 			case 1:
 				cout<<"Cuantos escalones desea subir: ";
-				cin>>pasos;
-				if((pasos+posicion)>=(escalones+1)){
-					vueltas+=(pasos+posicion)/(escalones+1);
-					posicion=(pasos+posicion)%(escalones+1);
+				cin>>subir;
+				if((subir+posicion)>=(escalones+1)){
+					vueltas+=(subir+posicion)/(escalones+1);
+					posicion=(subir+posicion)%(escalones+1);
 				}
 				else{
-					posicion=(pasos+posicion)%(escalones+1);
+					posicion=(subir+posicion)%(escalones+1);
 				}
 				cout<<"Vueltas: "<<vueltas;
 				cout<<endl<<"Posicion actual: "<<posicion;
