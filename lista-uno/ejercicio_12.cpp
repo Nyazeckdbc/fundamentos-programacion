@@ -42,18 +42,10 @@ int main(){
                 cout<<"Problemas con las turbinas..."<<endl;
                 cout<<"Iniciando aterrizaje de emergencia...";
             }
-            
-        
         }
-
     }
     else{
-        cout<<"El avion no puede despegar.. Revise las turbinas."<<endl;
-        
-        
-        
+        cout<<"El avion no puede despegar.. Revise las turbinas."<<endl;        
     }
-
-    
     return 0;
 }
