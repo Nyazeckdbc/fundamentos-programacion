@@ -26,20 +26,21 @@ int main(){
         }
     }
 
-    //Orden ascendente
+    cout<<endl;
+    cout<<"Orden ascendente: ";
     for(int i=0; i<numeros; i++){
         cout<<numeroEntrada[i]<<" ";
     }
     
     cout<<endl;
-    //Orden descendente
+    cout<<"Orden descendente: ";
     for(int i=numeros-1; i>=0; i--){
         cout<<numeroEntrada[i]<<" ";
     }
 
     cout<<endl;
 
-   //orden aleatorio
+   cout<<"Orden aleatorio: ";
    srand(time(NULL));
    for(int i=0; i<numeros; i++){
        aleatorio = 0 +rand()%(numeros-1);

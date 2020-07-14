@@ -10,7 +10,7 @@ int main(){
     printf("\n1.- Base 2 a base 10: ");
     printf("\n2.- Base 10 a base 2: \n");
     printf("Seleccione una opcion: ");
-    scanf("%i", &opcion);
+    scanf("%d", &opcion);
 
     switch(opcion){
         case 1:
