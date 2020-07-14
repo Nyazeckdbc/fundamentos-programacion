@@ -13,16 +13,16 @@ int main(){
 
     for(int i=0; i<=6; i++){
         for(int j=i; j<=6; j++){
-            fichas[k] = radiacion[i] + blindaje[j];
+            fichas[k] = radiacion[j] + blindaje[i];
             k++;
         }
     }
 
-    for(k=0; k<28; k++){
-        if(k%7==0){
-            cout<<"\n";
-        }
-            cout<<"["<<fichas[k]<<"]"<<" ";
+    for(k=27; k>=0; k--){
+      //  if(k%7==0){
+        //    cout<<"\n";
+        //}
+            cout<<"["<<fichas[k]<<"]"<<"\n";
     }
 
 
