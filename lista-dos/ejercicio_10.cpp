@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 
-    int arreglo[100], N,i=0, arreglo1[100];
+    int arreglo[100], N,i=0;
 
     cout<<"--------Ejercicio 8---------\n\n";
     cout<<"Numero de elementos para la serie: ";
