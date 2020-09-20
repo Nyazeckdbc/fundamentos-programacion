@@ -10,7 +10,7 @@ int main(){
     cout<<"Valor de N: ";
     cin>>N;
 
-    cout<<"Factores primos: [ 1, ";
+    cout<<"Factores primos: [ ";
     for(i=2; N>1; i++){
         while(N%i==0){
             cout<<i<<", ";
